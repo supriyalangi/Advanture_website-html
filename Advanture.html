@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanture</title>
+    <link rel="stylesheet" href="Advanture.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="navbar">
+        <h1 class="logo">ADAVENTURE</h1>
+        <ul class="nav-links">
+            <li class="Home"><a href="#">Home</a></li>
+            <li class="Home"><a href="#">Tour</a></li>
+            <li class="Home"><a href="#">Explore</a></li>
+            <li class="Home"><a href="#">About</a></li>
+            <li class="Home"><a href="#" class="ctn">Contact</a></li>
+
+
+
+        </ul>
+        <img src="img\/menu-btn.png" alt="" class="menu-btn">
+
+    </div>
+    <!-- Header -->
+    <header>
+        <div class="header-contaent">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"> </div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </header>
+    <!-- Event -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img\/trek1.jpg" alt="" style="width: 300px; height: 200px;">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum, dolor sit amet consesctetur
+                    adipisicing elit. Nam error aliquam velit,
+                    optio similique nulla debitis. Tempore atque
+                    nulla dolore?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img\/treak2.jpg" alt="" style="width: 300px; height: 200px;">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consesctetur
+                    adipisicing elit. Nam error aliquam velit,
+                    optio similique nulla debitis. Tempore atque
+                    nulla dolore?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Temporibus ullam assumenda voluptatum
+                exercitationem architecto beatae laudantium.</P>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+
+    </section>
+
+    <section class="tours">
+        <div class="row">
+
+            <div class="col">
+                <h1>UPCOMEING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur numquam labore perferendis
+                    aperiam excepturi asperiores expedita ut delectus quam!</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <div class="image-gallery">
+                    <div class="img1">
+                        <img src="img\/trek3.jpg" alt="">
+                        <img src="img\/trek4.jpg" alt="">
+                    </div>
+                    <div class="img1">
+                        <img src="img\/trek5.jpg" alt="">
+                        <img src="img\/trek6.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <p>7-B, Motilal Nehru Marg, New Delhi.| Email:adventure@gmail.com</p>
+        <p>Copyright@2021 Outdoor Adventure</p>
+
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
